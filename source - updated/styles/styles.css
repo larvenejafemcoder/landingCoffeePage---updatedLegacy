@@ -1,4 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap'); */
+@import './layout/container.css';
+@import './themes/colors.css';
+@import './components/cup.css';
+
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('./fonts/OpenSans-ExtraBold.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+}
+
+
 
 /*-----------------------------------
   Global Styles
@@ -6,60 +19,17 @@
 body {
   margin: 0;
   min-height: 100vh;
-  background-color: #0A0604; /* $smoky-black */
+  background-color: var(--smoky-black); /* $smoky-black */
   font-family: 'Open Sans', sans-serif;
   overflow: hidden;
 }
 
-/*-----------------------------------
-  Container Styles
------------------------------------*/
-.container {
-  top: 0;
-  right: 0;
-  left: 0;
-  z-index: 1000;
-  position: fixed;
-  background-color: #0c0304cc;
-  width: auto;
-  height: 74px;
-  display: flex;
-  justify-content: space-between;
-  border: solid 0.5px;
-  backdrop-filter: blur(20px);
-  -webkit-backdrop-filter: blur(20px);
-}
-
-.container img {
-  cursor: pointer;
-  width: 2.5rem;
-  height: 2.5rem;
-}
-
-.container .box img {
-  width: 3rem;
-  height: 3rem;
-  padding-top: 10px;
-  padding-right: 40px;
-}
-
-.container .logo {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: auto 10rem;
-  color: white;
-}
-
-.container .logo h1 {
-  font-size: 25px;
-}
 
 /*-----------------------------------
   Menu Box
 -----------------------------------*/
 .menu-box {
-  background-color: #10060F; /* $xiketic */
+  background-color: var(--xiketic); /* $xiketic */
   height: 100%;
   width: 0;
   position: fixed;
@@ -99,7 +69,7 @@ body {
 .menu-box ul li a {
   display: inline-block;
   text-decoration: none;
-  color: #ab986f; /* $white-coffee */
+  color: var(--white-coffee); /* $white-coffee */
   font-size: 6.5rem;
   font-weight: 600;
   position: relative;
@@ -109,7 +79,7 @@ body {
 
 .menu-box ul li a:hover {
   font-size: 8rem;
-  color: #f4a460; /* $sandy-brown */
+  color: var(--sandy-brown); /* $sandy-brown */
 }
 
 /*-----------------------------------
@@ -121,13 +91,13 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #10060F; /* $xiketic */
+  background-color: var(--xiketic); /* $xiketic */
 }
 
 .main .left-content {
   width: 48rem;
   height: 48rem;
-  background-color: #10060F;
+  background-color: var(--xiketic);;
   display: flex;
   flex-direction: column;
 }
@@ -145,7 +115,7 @@ body {
 }
 
 .main .left-content button:hover {
-  background: #212121; /* $eerie-black */
+  background: var(--eerie-black); /* $eerie-black */
   color: whitesmoke;
 }
 
@@ -154,7 +124,7 @@ body {
   text-align: left;
   font-size: 6rem;
   line-height: 1;
-  background: -webkit-linear-gradient(15deg, #5e2815, #f4a460);
+  background: -webkit-linear-gradient(15deg, var(--gradient-dark), var(--gradient-light));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -162,7 +132,7 @@ body {
 .main .right-content {
   width: 54rem;
   height: 48rem;
-  background-color: #ab986f; /* $white-coffee */
+  background-color: var(--white-coffee); /* $white-coffee */
   border-radius: 2rem;
   display: flex;
   justify-content: center;
@@ -181,7 +151,7 @@ a {
 /*-----------------------------------
   Coffee Cup Animation
 -----------------------------------*/
-@keyframes filling {
+/* @keyframes filling {
   0%, 100% {
     background-position: 0 130px;
   }
@@ -189,22 +159,22 @@ a {
   50% {
     background-position: 600px -70px;
   }
-}
+} */
 
-.cup {
+/* .cup {
   position: absolute;
   width: 275px;
   height: 210px;
   border: 8px solid wheat;
-  box-shadow: 0 0 0 12px #3C1A0E; /* $black-bean */
+  box-shadow: 0 0 0 12px #3C1A0E; 
   border-radius: 15px 15px 65px 85px;
   background: url(/media-assets/coffee.png);
   background-repeat: repeat-x;
   background-position: 0 130px;
   animation: filling 4s infinite;
-}
+} */
 
-.cup .cup-handle {
+/* .cup .cup-handle {
   position: absolute;
   top: 10px;
   right: -110px;
@@ -212,7 +182,7 @@ a {
   height: 130px;
   border: 10px solid #3C1A0E;
   border-radius: 35px 36px 80px 36px;
-}
+} */
 
 /*-----------------------------------
   Media Queries
