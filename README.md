@@ -3,13 +3,9 @@
 
 
 ```markdown
-# landingCoffeePage
 
-Welcome to the Coffee Landing Page project! This is a simple yet visually appealing landing page for
- a coffee shop or brand.
-It features good looking animations but does not include responsive design.
 
-## Table of Contents
+# Table of Contents
 
 - [Project Structure](#project-structure)
 - [Getting Started](#getting-started)
@@ -17,7 +13,7 @@ It features good looking animations but does not include responsive design.
 - [Contributing](#contributing)
 - [License](#license)
 
-## Project Structure
+# Project Structure
 
 ```md
   coffee-landing-page/
