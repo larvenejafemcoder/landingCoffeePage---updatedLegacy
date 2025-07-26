@@ -7,9 +7,9 @@ This is a simple yet visually appealing landing page for a coffee shop or brand.
 > ⚠️ **Note**: The project includes beautiful animations but does **not** currently support responsive design.
 
 ---
-
+```
 ## 📑 Table of Contents
-
+```
 - [Project Structure](#project-structure)
 - [Getting Started](#getting-started)
 - [Usage](#usage)
@@ -18,10 +18,9 @@ This is a simple yet visually appealing landing page for a coffee shop or brand.
 - [Acknowledgments](#acknowledgments)
 
 ---
-
+```
 ## 📁 Project Structure
 
-```
 ```markdown
 coffee-landing-page/
 ├── index.html
