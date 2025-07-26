@@ -37,7 +37,7 @@ coffee-landing-page/
 ```
 
 
-### File Breakdown 🗄️
+## File Breakdown 🗄️
 ````
 - `index.html`: Main HTML page.
 - `index.js`: JavaScript for animations and logic.
@@ -65,7 +65,7 @@ Make sure you have the following:
 
 ````
 
-### 📦 Installation
+## 📦 Installation
 
 Clone the repository and navigate into it:
 ```sh
@@ -78,22 +78,6 @@ cd source
 To preview the site locally:
 
 * Open `index.html` directly in your browser.
-
-### 🔄 Rebuild CSS from SCSS
-
-If you've modified SCSS files, compile them with:
-
-```sh
-sass styles/style.scss styles/style.css
-```
-
-Or use the watch command to auto-recompile on changes:
-
-```sh
-sass --watch styles/style.scss:styles/style.css
-```
-
----
 
 ## 🤝 Contributing
 
