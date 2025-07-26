@@ -70,11 +70,6 @@ Make sure you have the following:
 
 Clone the repository and navigate into it:
 
-```
-```sh
-git clone https://github.com/larvenejafemcoder/landingCoffeePage---updatedLegacy.git
-cd source
-```
 ````
 
 ---
