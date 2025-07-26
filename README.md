@@ -1,5 +1,6 @@
-```markdown
 # ☕ Coffee Landing Page Project
+
+```markdown
 
 Welcome to the **Coffee Landing Page** project!  
 This is a simple yet visually appealing landing page for a coffee shop or brand.
