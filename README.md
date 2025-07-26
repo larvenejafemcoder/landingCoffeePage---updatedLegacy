@@ -1,5 +1,4 @@
-# Welcome to the Coffee Landing Page project! This is a simple yet visually appealing landing page for
- a coffee shop or brand.
+# Welcome to the Coffee Landing Page project! This is a simple yet visually appealing landing page for a coffee shop or brand.
 ## It features good looking animations but does not include responsive design.
 
 
