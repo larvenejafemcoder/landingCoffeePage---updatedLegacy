@@ -22,7 +22,7 @@ This is a simple yet visually appealing landing page for a coffee shop or brand.
 ## 📁 Project Structure
 
 ```
-
+```markdown
 coffee-landing-page/
 ├── index.html
 ├── index.js
@@ -35,6 +35,7 @@ coffee-landing-page/
 │   ├── style.css.map
 │   └── style.scss
 └── media-assets/
+```
 
 ````
 
