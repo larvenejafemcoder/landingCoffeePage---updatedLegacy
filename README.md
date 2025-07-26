@@ -67,7 +67,7 @@ Make sure you have the following:
 - [Sass](https://sass-lang.com/install) installed globally
 
 ````
----
+
 ### 📦 Installation
 
 Clone the repository and navigate into it:
@@ -75,7 +75,6 @@ Clone the repository and navigate into it:
 git clone https://github.com/larvenejafemcoder/landingCoffeePage---updatedLegacy.git
 cd source
 ```
----
 
 ## 🛠️ Usage
 
@@ -113,14 +112,12 @@ Any help is **greatly appreciated**!
    `git push origin feature/AmazingFeature`
 5. Open a Pull Request
 
----
 
 ## 📄 License
 
 Distributed under the MIT License.
 See `LICENSE` for more information.
 
----
 
 ## 🙏 Acknowledgments
 
