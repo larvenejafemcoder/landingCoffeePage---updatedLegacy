@@ -37,10 +37,9 @@ coffee-landing-page/
 └── media-assets/
 ```
 
+
+### File Breakdown 🗄️
 ````
-
-### File Breakdown
-
 - `index.html`: Main HTML page.
 - `index.js`: JavaScript for animations and logic.
 - `slider.html`: Slider component layout.
@@ -52,11 +51,10 @@ coffee-landing-page/
   - `style.css`: Compiled CSS output.
   - `style.css.map`: CSS source map.
 - `media-assets/`: Images and videos.
-
 ---
-
+````
 ## 🚀 Getting Started
-
+````
 To get a local copy up and running, follow these simple steps.
 
 ### ✅ Prerequisites
