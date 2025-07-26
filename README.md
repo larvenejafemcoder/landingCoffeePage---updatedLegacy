@@ -66,12 +66,15 @@ Make sure you have the following:
 - A modern web browser (Chrome, Firefox, etc.)
 - [Sass](https://sass-lang.com/install) installed globally
 
+````
+---
 ### 📦 Installation
 
 Clone the repository and navigate into it:
-
-````
-
+```sh
+git clone https://github.com/larvenejafemcoder/landingCoffeePage---updatedLegacy.git
+cd source
+```
 ---
 
 ## 🛠️ Usage
