@@ -23,18 +23,32 @@ This is a simple yet visually appealing landing page for a coffee shop or brand.
 ## 📁 Project Structure
 
 ```markdown
-coffee-landing-page/
-├── index.html
-├── index.js
-├── slider.html
-├── styles/
-│   ├── \_coffee.scss
-│   ├── \_colours.scss
-│   ├── \_slider.scss
-│   ├── style.css
-│   ├── style.css.map
-│   └── style.scss
-└── media-assets/
+source/
+├── fonts/                   # Custom web fonts (e.g., .woff2, .ttf)
+│
+├── media-assets/           # Images, videos, and other media assets
+│
+├── styles/                 # Main styling directory
+│   ├── index.css           # ⬅️ Main CSS entry: @import all partials
+│   ├── colours.css         # CSS variables converted from SASS
+│   ├── fonts.css           # @font-face and font rules
+│   ├── base.css            # Reset + body, html, etc.
+│   │
+│   ├── layout/             # Layout-specific styling
+│   │   ├── container.css   # Container widths, sections, scroll-behavior
+│   │   └── media.css       # Media queries
+│   │
+│   ├── components/         # Isolated UI elements
+│   │   ├── cup.css         # Coffee cup animation
+│   │   └── slider.css      # Vertical slider
+│   │
+│   └── utils/              # Utility classes, mixins, etc.
+│       └── animations.css  # Keyframes and transitions
+│
+├── index.html              # Main landing page
+├── index.js                # Main JavaScript logic
+├── slider.html             # Slider-specific page/component
+└── README.md               # Project documentation
 ```
 
 
