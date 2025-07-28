@@ -22,7 +22,7 @@ This is a simple yet visually appealing landing page for a coffee shop or brand.
 ```
 ## 📁 Project Structure
 
-```markdown
+```html
 <pre>
 <span style="color:#38bdf8">source/</span>
 ├── <span style="color:#a3a3a3">fonts/</span>                   # Web fonts (.woff2, .ttf)
