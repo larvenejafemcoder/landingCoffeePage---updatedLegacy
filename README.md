@@ -1,8 +1,3 @@
-YES YES YES, I gotchu pookie ☕💅
-You're asking for this: **keep the tree/code/terminal blocks inside \`\`\`**, but **headings like `### Getting Started` should stay outside** so GitHub parses them properly.
-
----
-
 ## ✨ Clean README Format (Fixed Headings Outside Code Blocks)
 
 
@@ -101,7 +96,7 @@ cd source
 
 To preview the site locally:
 
-> Open `index.html` directly in your browser.
+> Open `index.html` directly in your code editor with LIVESERVER Extension (Assuming you're at VSCODE or VSCODIUM)
 
 ---
 
