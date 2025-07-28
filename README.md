@@ -1,6 +1,3 @@
-## ✨ Clean README Format (Fixed Headings Outside Code Blocks)
-
-
 # ☕ Coffee Landing Page Project
 
 Welcome to the **Coffee Landing Page** project!  
