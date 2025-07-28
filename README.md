@@ -23,32 +23,40 @@ This is a simple yet visually appealing landing page for a coffee shop or brand.
 ## 📁 Project Structure
 
 ```markdown
-source/
-├── fonts/                   # Custom web fonts (e.g., .woff2, .ttf)
+<pre>
+<span style="color:#38bdf8">source/</span>
+├── <span style="color:#a3a3a3">fonts/</span>                   # Web fonts (.woff2, .ttf)
 │
-├── media-assets/           # Images, videos, and other media assets
+├── <span style="color:#a3a3a3">media-assets/</span>           # Images, videos, etc.
 │
-├── styles/                 # Main styling directory
-│   ├── index.css           # ⬅️ Main CSS entry: @import all partials
-│   ├── colours.css         # CSS variables converted from SASS
-│   ├── fonts.css           # @font-face and font rules
-│   ├── base.css            # Reset + body, html, etc.
-│   │
-│   ├── layout/             # Layout-specific styling
-│   │   ├── container.css   # Container widths, sections, scroll-behavior
-│   │   └── media.css       # Media queries
-│   │
-│   ├── components/         # Isolated UI elements
-│   │   ├── cup.css         # Coffee cup animation
-│   │   └── slider.css      # Vertical slider
-│   │
-│   └── utils/              # Utility classes, mixins, etc.
-│       └── animations.css  # Keyframes and transitions
+├── <span style="color:#38bdf8">styles/</span>                 # Modular CSS system
+│   ├── <span style="color:#38bdf8">index.css</span>           # ⬅️ Entry point
+│   ├── <span style="color:#facc15">colours.css</span>         # Theme color variables
+│   ├── <span style="color:#facc15">fonts.css</span>           # @font-face rules
+│   ├── <span style="color:#facc15">base.css</span>            # Reset + html/body defaults
 │
-├── index.html              # Main landing page
-├── index.js                # Main JavaScript logic
-├── slider.html             # Slider-specific page/component
-└── README.md               # Project documentation
+│   ├── <span style="color:#c084fc">layout/</span>             # Layout structure
+│   │   ├── <span style="color:#c084fc">container.css</span>   # Containers and wrappers
+│   │   └── <span style="color:#c084fc">media.css</span>       # Media queries
+│
+│   ├── <span style="color:#f97316">components/</span>         # Reusable UI parts
+│   │   ├── <span style="color:#f97316">cup.css</span>         # ☕ Coffee cup animation
+│   │   └── <span style="color:#f97316">slider.css</span>      # Vertical slider
+│
+│   ├── <span style="color:#4ade80">sections/</span>           # Page sections
+│   │   ├── <span style="color:#4ade80">hero.css</span>        # Hero section
+│   │   ├── <span style="color:#4ade80">about.css</span>       # About section
+│   │   └── <span style="color:#4ade80">contact.css</span>     # Contact section
+│
+│   └── <span style="color:#f472b6">utils/</span>              # Helpers
+│       ├── <span style="color:#f472b6">animations.css</span>  # Keyframes
+│       └── <span style="color:#f472b6">spacing.css</span>     # Spacing utilities
+│
+├── <span style="color:#38bdf8">index.html</span>              # Main landing page
+├── <span style="color:#38bdf8">index.js</span>                # Main logic
+├── <span style="color:#38bdf8">slider.html</span>             # Slider component
+└── <span style="color:#a3a3a3">README.md</span>               # Project docs
+</pre>
 ```
 
 
